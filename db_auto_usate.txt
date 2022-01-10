@@ -1,0 +1,12 @@
+GOAL: Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+DB_Name : auto_usate
+
+-Marca VARCHAR(40) NOT_NULL
+-Modello VARCHAR(40)  NOT_NULL
+-Km INT  NOT_NULL
+-Alimentazione VARCHAR(40)  NOT_NULL
+-Immatricolazione DATE  NOT_NULL
+-Prezzo INT  NOT_NULL
+-Descrizione TEXT  DEFAULT 
+-Accessori TEXT  DEFAULT
